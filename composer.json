@@ -1,4 +1,8 @@
 {
+    "repositoies": {
+        "type": "composer",
+        "url": "http://composer.zhurp.xyz"
+    },
     "require": {
         "monolog/monolog": "1.2.*"
     }
