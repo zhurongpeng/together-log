@@ -7,13 +7,8 @@
             "email": "738592537@qq.com"
         }
     ],
-    "repositoies": {
-        "type": "composer",
-        "url": "http://composer.zhurp.xyz"
-    },
     "require": {
-        "monolog/monolog": "1.2.*",
-        "vlucas/phpdotenv": "^2.5"
+        "monolog/monolog": "1.2.*"
     },
     "autoload": {
         "psr-4": {
