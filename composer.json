@@ -1,4 +1,12 @@
 {
+    "name": "together/exception",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "zhurongpeng",
+            "email": "738592537@qq.com"
+        }
+    ],
     "repositoies": {
         "type": "composer",
         "url": "http://composer.zhurp.xyz"
@@ -8,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zrp\\": "src/"
+            "Together\\": "src/"
         }
     }
 }
