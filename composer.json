@@ -12,7 +12,8 @@
         "url": "http://composer.zhurp.xyz"
     },
     "require": {
-        "monolog/monolog": "1.2.*"
+        "monolog/monolog": "1.2.*",
+        "vlucas/phpdotenv": "^2.5"
     },
     "autoload": {
         "psr-4": {

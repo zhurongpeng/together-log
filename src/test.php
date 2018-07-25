@@ -7,8 +7,8 @@ require 'vendor/autoload.php';
 //
 // $log->info(json_encode(['test', '测试']));
 
-use Zrp\PLog;
+use Together\Log;
 
-$log = new PLog('test');
+$log = new Log();
 
-$log->info('test', 'ceshi');
+$log->info('test', 'message:测试错误 参数:' . json_encode(['username' => 'Seldaek']));
