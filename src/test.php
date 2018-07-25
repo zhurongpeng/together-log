@@ -11,4 +11,4 @@ use Together\Log;
 
 $log = new Log();
 
-$log->info('test', 'message:测试错误 参数:' . json_encode(['username' => 'Seldaek']));
+$log->debug('test', 'message:测试错误 参数:' . json_encode(['username' => 'Seldaek']));
